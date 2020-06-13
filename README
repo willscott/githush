@@ -1,0 +1,21 @@
+githush
+---
+
+there are classes of github events / notifications that aren't high value
+but are hard to not-watch.
+In particular if an issue is closed, or PR already merged it is typically less
+relevant - especially since the artifact of the action may well take the form of
+an email recording the event as well.
+
+this script can run in the background to clean up no-longer-relevant events
+from github notifications to keep them a bit less redundant.
+
+Usage
+---
+Credentials: make a file named "auth.json" containing access credentials.
+The easiest way to do this is create a "personal access token" in the github
+ux, with permissions for "Repo" and "Notifications". Put the quoted string
+(e.g. the valid json form of it) in the file "auth.json".
+
+Running: `npm install && node index.js`
+

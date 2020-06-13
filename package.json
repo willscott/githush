@@ -1,0 +1,29 @@
+{
+  "name": "githush",
+  "version": "1.0.0",
+  "description": "quiet some github notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willscott/githush.git"
+  },
+  "keywords": [
+    "github",
+    "notifications",
+    "api"
+  ],
+  "author": "Will Scott <willscott@gmail.com> (https://wills.co.tt/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willscott/githush/issues"
+  },
+  "homepage": "https://github.com/willscott/githush#readme",
+  "dependencies": {
+    "@octokit/plugin-retry": "^3.0.3",
+    "@octokit/plugin-throttling": "^3.2.2",
+    "@octokit/rest": "^18.0.0"
+  }
+}
